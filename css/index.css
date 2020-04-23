@@ -192,6 +192,11 @@ header .navigation nav a {
   background: dodgerblue;
   color: yellowgreen;
 }
+@media (max-width: 500px) {
+  header .navigation nav a {
+    width: 40%;
+  }
+}
 .About {
   background-color: lightgrey;
 }
@@ -296,20 +301,20 @@ footer {
 footer .Contact {
   background-color: lightgrey;
 }
-footer h3 {
+footer .Contact h3 {
   font-size: 2.8rem;
   font-family: Pacifico;
 }
-footer p {
+footer .Contact p {
   font-size: 1.4rem;
   font-family: Nanum-Gothic-Coding;
 }
-footer nav {
+footer .Contact nav {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
 }
-footer nav a {
+footer .Contact nav a {
   text-decoration: none;
   font-size: 1.2rem;
   margin: 15px;
